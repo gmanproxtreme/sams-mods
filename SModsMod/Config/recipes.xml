@@ -1,0 +1,16 @@
+<!--
+Sam's Mods Mod
+v0.1
+by saminal
+totally untested, good luck
+
+recipes.xml
+-->
+
+<configs>
+	<append xpath="/recipes">
+	<recipe name="modArmorLetterZU" count="1">
+			<ingredient name="resourceCloth" count="5"/>
+	</recipe>
+	</append>
+</configs>

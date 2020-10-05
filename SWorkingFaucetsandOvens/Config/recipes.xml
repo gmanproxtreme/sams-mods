@@ -1,0 +1,77 @@
+<!--
+Sam's Working Faucets and Ovens
+v0.3.191
+by saminal
+untested, good luck
+
+recipes.xml
+-->
+
+
+<configs>
+
+<!--
+SJ: Add recipes to make vanilla faucets at the forge
+Add recipes to turn vanilla faucets into working ones at the workbench
+Add recipe to craft a working oven at the workbench
+-->
+
+	<append xpath="recipes">
+	
+		<!-- Forge recipes -->
+		
+		<recipe name="faucet02" count="1" material_based="true" craft_area="forge" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="10"/>
+		</recipe>
+		
+		<recipe name="faucetBrass02" count="1" material_based="true" craft_area="forge" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="50"/>
+			<ingredient name="unit_clay" count="10"/>
+		</recipe>
+		
+		<recipe name="faucet04" count="1" material_based="true" craft_area="forge" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="10"/>
+		</recipe>
+		
+		<recipe name="faucetBrass04" count="1" material_based="true" craft_area="forge" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="50"/>
+			<ingredient name="unit_clay" count="10"/>
+		</recipe>
+		
+		<!-- Workbench recipes -->
+		
+		<recipe name="faucet02Working" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="faucet02" count="1"/>
+			<ingredient name="resourceMetalPipe" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		
+		<recipe name="faucetBrass02Working" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="faucetBrass02" count="1"/>
+			<ingredient name="resourceMetalPipe" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		
+		<recipe name="faucet04Working" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="faucet04" count="1"/>
+			<ingredient name="resourceMetalPipe" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		
+		<recipe name="faucetBrass04Working" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="faucetBrass04" count="1"/>
+			<ingredient name="resourceMetalPipe" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+		</recipe>
+		
+		<recipe name="cntWallOvenWorking" count="1" craft_area="workbench" tags="learnable,perkMasterChef">
+			<ingredient name="resourceForgedIron" count="40"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>
+		
+	</append>
+	
+</configs>

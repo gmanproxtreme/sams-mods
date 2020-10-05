@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+cntWallOvenWorking,blocks,Container,,,Working Wall Oven,,Wandofen,Horno empotrable,Four mural,Forno da incasso,壁オーブン,붙박이 오븐,Piec wbudowany,Forno de parede,Встроенная печь,Ankastre Fırın,墙面炉灶,墻內爐,Horno empotrable
+cntWallOvenPowered,blocks,Container,,,Powered Wall Oven,,Wandofen,Horno empotrable,Four mural,Forno da incasso,壁オーブン,붙박이 오븐,Piec wbudowany,Forno de parede,Встроенная печь,Ankastre Fırın,墙面炉灶,墻內爐,Horno empotrable
+faucet02Working,blocks,Block,,,Working Household Faucet 2,,Standardwasserhahn 2,Grifo 2,Robinet ordinaire 2,Rubinetto 2,家庭用蛇口 2,가정용 수도꼭지 2,Bateria domowa 2,Torneira de casa 2,Водопроводный кран 2,Ev Musluğu 2,家用水龙头 2,家用水龍頭 2,Grifo 2
+faucet04Working,blocks,Block,,,Working Household Faucet,,Standardwasserhahn,Grifo,Robinet ordinaire,Rubinetto,家庭用蛇口,가정용 수도꼭지,Bateria domowa,Torneira de casa,Водопроводный кран,Ev Musluğu,家用水龙头,家用水龍頭,Grifo
+faucetBrass02Working,blocks,Block,,,Working Brass Faucet 2,,Messingwasserhahn 2,Grifo de latón 2,Robinet en laiton 2,Rubinetto d'ottone 2,真鍮製蛇口 2,놋쇠 수도꼭지 2,Bateria mosiężna 2,Torneira de bronze 2,Латунный кран 2,Pirinç Musluk 2,黄铜水龙头 2,黃銅水龍頭 2,Grifo de latón 2
+faucetBrass04Working,blocks,Block,,,Working Brass Faucet,,Messingwasserhahn,Grifo de latón,Robinet en laiton,Rubinetto d'ottone,真鍮製蛇口,놋쇠 수도꼭지,Bateria mosiężna,Torneira de bronze,Латунный кран,Pirinç Musluk,黄铜水龙头,黃銅水龍頭,Grifo de latón

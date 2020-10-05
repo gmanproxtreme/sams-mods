@@ -1,0 +1,58 @@
+<!--
+Sam's Mods Mod
+v0.1
+by saminal
+totally untested, good luck
+
+item_modifiers.xml
+-->
+
+<configs>
+	<append xpath="/item_modifiers">
+	<item_modifier name="modArmorLetterZU" installable_tags="armorChest" modifier_tags="rare" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="apparelCoatJacketLetterZU"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="300"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="letter_jacket"/>
+			<property name="UMA.Overlay0" value="letter_jacket"/>
+			<property name="UMA.Overlay1" value="letter_jacket_arms"/>
+			<property name="UMA.Overlay2" value="letterjacket_tshirt_overlay"/>
+			<property name="UMA.Overlay3" value="letterjacket_letter_overlay"/>
+			<property name="UMA.Layer" value="3"/>
+			<property name="UMA.Mask0" value="chest" param1="base"/>			
+		</item_property_overrides>
+		
+		<effect_group tiered="false">
+			<passive_effect name="RunSpeed" operation="perc_add" value=".1"/><display_value name="dRunSpeed" value=".1"/>
+			<passive_effect name="HealthLoss" operation="perc_add" value="-.025">
+				<requirement name="ProgressionLevel" progression_name="perkBatterUpGear" operation="Equals" value="1"/>
+			</passive_effect>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="modSuitJacket" installable_tags="armorChest" modifier_tags="rare" blocked_tags="noMods" type="attachment">
+		<property name="CustomIcon" value="apparelSuitJacket"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="400"/>
+		<property name="DisplayType" value="clothing"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="clothes_suit_jacket"/>
+			<property name="UMA.Overlay0" value="unisex_clothes_suit_jacket"/>
+			<property name="UMA.Overlay1" value="unisex_clothes_suit_jacket"/>
+			<property name="UMA.Layer" value="3"/>
+			<property name="UMA.Mask0" value="chest" param1="base"/>			
+		</item_property_overrides>
+		
+		<effect_group tiered="false">
+			<passive_effect name="RunSpeed" operation="perc_add" value=".1"/><display_value name="dRunSpeed" value=".1"/>
+			<passive_effect name="HealthLoss" operation="perc_add" value="-.025">
+				<requirement name="ProgressionLevel" progression_name="perkEnforcerApparel" operation="Equals" value="1"/>
+			</passive_effect>
+		</effect_group>
+	</item_modifier>
+	</append>
+</configs>
