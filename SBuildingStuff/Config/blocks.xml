@@ -1,6 +1,6 @@
 <!--
 Sam's Building Stuff
-v0.1
+v0.2
 by saminal
 untested, good luck
 
@@ -136,5 +136,109 @@ blocks.xml
 			<property name="CustomIconTint" value="ccccff"/>
 			<property name="DowngradeBlock" value="trapSpikesSteelDmg1"/>
 		</block>
+		
+		<block name="tableLampLightPlayer">
+			<property name="Class" value="PoweredLight"/>
+			<property name="Extends" value="tableLampLight"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="CustomIcon" value="tableLampLight"/>
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="Material" value="Mglass"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="TakeDelay" value="5"/>
+		</block>
+		
+		<block name="workLightPlayer">
+			<property name="Class" value="PoweredLight"/>
+			<property name="Extends" value="workLightPOI"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="CustomIcon" value="workLightPOI"/>
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="Material" value="Miron"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="TakeDelay" value="5"/>
+		</block>
+		
+		<block name="signExitLightPlayer">
+			<property name="Class" value="PoweredLight"/>
+			<property name="Extends" value="signExitLight"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="CustomIcon" value="signExitLight"/>
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="Material" value="Mglass"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="TakeDelay" value="5"/>
+		</block>
+
+		<block name="industrialLight02RedPlayer">
+			<property name="Class" value="PoweredLight"/>
+			<property name="Extends" value="industrialLight02Red"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="CustomIcon" value="industrialLight02Red"/>
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="Material" value="Miron"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="TakeDelay" value="5"/>
+		</block>
+		
+		<block name="ceilingFanLightPlayer">
+			<property name="Class" value="PoweredLight"/>
+			<property name="Extends" value="ceilingFanLight"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="CustomIcon" value="ceilingFanLight"/>
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="Material" value="Mbrass"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="TakeDelay" value="5"/>
+		</block>
+		
+		<block name="signShopOpenPlayer">
+			<property name="Class" value="PoweredLight"/>
+			<property name="Extends" value="signShopOpen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="CustomIcon" value="signShopOpenSwitch"/>
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="Material" value="Mglass"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="TakeDelay" value="5"/>
+		</block>
+
+		<block name="deskLampLightPlayer">
+			<property name="Class" value="PoweredLight"/>
+			<property name="Extends" value="deskLampLight"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="CustomIcon" value="deskLampLight"/>
+			<property name="RuntimeSwitch" value="true"/>
+			<property name="Material" value="Mbrass"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="TakeDelay" value="5"/>
+		</block>
+
+		<block name="lightPlayerVariantHelper">
+			<property name="Extends" value="woodFrameBlock"/>
+			<property name="CustomIcon" value="industrialLight02Red"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="tableLampLightPlayer,workLightPlayer,signExitLightPlayer,industrialLight02RedPlayer,ceilingFanLightPlayer,signShopOpenPlayer,deskLampLightPlayer,ceilingLight01_player,industrialLight01_player,industrialLight02_player,ceilingLight07_player"/>
+			<property name="Group" value="Basics,Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>		
 	</append>
 </configs>

@@ -1,6 +1,6 @@
 <!--
 Sam's Building Stuff
-v0.1
+v0.2
 by saminal
 untested, good luck
 
@@ -44,5 +44,14 @@ recipes.xml
 			<ingredient name="resourceScrapBrass" count="10"/>
 		</recipe>
 		
+		<recipe name="lightPlayerVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceScrapBrass" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".5,.5,.5,.3,.15" tags="resourceForgedIron,resourceElectricParts"/>
+			</effect_group>			
+		</recipe>
 	</append>
 </configs>
