@@ -1,6 +1,6 @@
 <!--
 Sam's Stack Tweaks
-v0.1
+va19.2.2020.10.22
 by saminal
 untested, good luck
 
@@ -22,4 +22,5 @@ items.xml
 	<set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">25</set>
 	<set xpath="/items/item[@name='resourceBulletCasing']/property[@name='Stacknumber']/@value">5000</set>
 	<set xpath="/items/item[@name='resourceBulletTip']/property[@name='Stacknumber']/@value">5000</set>
+	<set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber']/@value">6000</set>
 </configs>
