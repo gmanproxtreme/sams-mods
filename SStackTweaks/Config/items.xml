@@ -23,4 +23,5 @@ items.xml
 	<set xpath="/items/item[@name='resourceBulletCasing']/property[@name='Stacknumber']/@value">5000</set>
 	<set xpath="/items/item[@name='resourceBulletTip']/property[@name='Stacknumber']/@value">5000</set>
 	<set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber']/@value">6000</set>
+	<set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber']/@value">5000</set>
 </configs>
